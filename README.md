@@ -58,5 +58,5 @@ const p2 = new Polygon(new Vertex(1, 1))
 console.log(checkCollision(p1, p2)); // true
 ```
 **Notes**:
-- Polygons must be convex which means all interior angles must be less than 180 degrees.
+- Polygons must be convex, meaning that all interior angles must be less than 180 degrees.
 - Vertices must be added in **clockwise or counter-clockwise order**. Inconsistent ordering may cause the collision detection to fail.
