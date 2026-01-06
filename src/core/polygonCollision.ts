@@ -3,7 +3,7 @@ import Vector from "../geometry/Vector";
 import polygonProjection from "../projections/polygonProjection";
 
 /**
- * Uses the seperating axis theorem to check whether two polygons are overlapping.
+ * Uses the separating axis theorem to check whether two polygons are overlapping.
  * 
  * @param a 
  * @param b 

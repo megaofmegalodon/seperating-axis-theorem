@@ -1,7 +1,7 @@
-# seperating-axis-theorem
+# separating-axis-theorem
 
 A lightweight TypeScript library for 2D collision detection. 
-Seperating Axis Theorem is a method used to detect collisions between **convex** shapes.
+Separating Axis Theorem is a method used to detect collisions between **convex** shapes.
 
 The library supports:
 - Circle vs. Circle collisions
@@ -10,12 +10,12 @@ The library supports:
 
 ## Installation
 ```bash
-npm i seperating-axis-theorem
+npm i separating-axis-theorem
 ```
 
 ## Usage
 ```js
-import { checkCollision, circleCollision, Circle, Vertex } from "seperating-axis-theorem";
+import { checkCollision, circleCollision, Circle, Vertex } from "separating-axis-theorem";
 
 const c1 = new Circle(new Vertex(0, 0), 5);
 const c2 = new Circle(new Vertex(3, 4), 5);

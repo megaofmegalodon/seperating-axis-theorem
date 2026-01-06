@@ -6,7 +6,7 @@ import polygonProjection from "../projections/polygonProjection";
 import closestVertex from "../sat/closestVertex";
 
 /**
- * Uses a variation of the seperating axis theorem to check whether
+ * Uses a variation of the separating axis theorem to check whether
  * a polygon and a circle are overlapping.
  * 
  * @param a 
