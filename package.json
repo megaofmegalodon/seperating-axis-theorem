@@ -28,6 +28,9 @@
         "url": "https://github.com/megaofmegalodon/seperating-axis-theorem/issues"
     },
     "homepage": "https://github.com/megaofmegalodon/seperating-axis-theorem#readme",
+    "publishConfig": {
+        "access": "public"
+    },
     "devDependencies": {
         "@types/node": "^25.0.3",
         "esbuild": "^0.27.2",
