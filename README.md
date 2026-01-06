@@ -1,7 +1,7 @@
-# separating-axis-theorem
+# @megaofmegalodon/2d-collisions
 
 A lightweight TypeScript library for 2D collision detection. 
-Separating Axis Theorem is a method used to detect collisions between **convex** shapes.
+Uses the **Separating Axis Theorem (SAT)** for collision detection for **convex** polygons. 
 
 The library supports:
 - Circle vs. Circle collisions
@@ -10,12 +10,12 @@ The library supports:
 
 ## Installation
 ```bash
-npm i separating-axis-theorem
+npm i @megaofmegalodon/2d-collisions
 ```
 
 ## Usage
 ```js
-import { checkCollision, circleCollision, Circle, Vertex } from "separating-axis-theorem";
+import { checkCollision, circleCollision, Circle, Vertex } from "@megaofmegalodon/2d-collisions";
 
 const c1 = new Circle(new Vertex(0, 0), 5);
 const c2 = new Circle(new Vertex(3, 4), 5);

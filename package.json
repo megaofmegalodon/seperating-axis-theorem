@@ -1,5 +1,5 @@
 {
-    "name": "separating-axis-theorem",
+    "name": "@megaofmegalodon/2d-collisions",
     "version": "1.0.0",
     "description": "A TypeScript library for 2D collision detection.",
     "license": "MIT",
@@ -17,6 +17,17 @@
         "build": "tsc && node build.mjs",
         "test": "vitest run"
     },
+    "directories": {
+        "test": "tests"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/megaofmegalodon/seperating-axis-theorem.git"
+    },
+    "bugs": {
+        "url": "https://github.com/megaofmegalodon/seperating-axis-theorem/issues"
+    },
+    "homepage": "https://github.com/megaofmegalodon/seperating-axis-theorem#readme",
     "devDependencies": {
         "@types/node": "^25.0.3",
         "esbuild": "^0.27.2",
