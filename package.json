@@ -1,7 +1,7 @@
 {
     "name": "separating-axis-theorem",
     "version": "1.0.0",
-    "description": "tba",
+    "description": "A TypeScript library for 2D collision detection.",
     "license": "MIT",
     "author": "megaofmegalodon",
     "keywords": [
