@@ -4,13 +4,20 @@
     "description": "tba",
     "license": "MIT",
     "author": "megaofmegalodon",
-    "type": "commonjs",
-    "main": "index.js",
+    "keywords": [
+        "typescript",
+        "SAT"
+    ],
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist/**/*"
+    ],
     "scripts": {
-        "watch": "node build.mjs"
+        "build": "tsc && node build.mjs"
     },
-    "dependencies": {
-        "esbuild": "^0.27.2"
-    },
-    "devDependencies": {}
+    "devDependencies": {
+        "esbuild": "^0.27.2",
+        "typescript": "^5.9.3"
+    }
 }
